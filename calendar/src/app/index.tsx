@@ -18,6 +18,9 @@ import { useTranslation } from 'react-i18next';
 
 export function App() {
   const { i18n } = useTranslation();
+  const state = {
+
+  };
   return (
     <BrowserRouter>
       <Helmet
